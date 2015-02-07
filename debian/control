@@ -1,0 +1,15 @@
+Source: ftp-export
+Section: net
+Priority: optional
+Maintainer: Märt Rang <rang501@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+Homepage: https://github.com/simpledrupalcloud/ftp-export
+Vcs-Git: git@github.com:simpledrupalcloud/ftp-export.git
+Vcs-Browser: https://github.com/simpledrupalcloud/ftp-export.git
+
+Package: ftp-export
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Export files from ftp
+ Simple utility to export files from ftp
